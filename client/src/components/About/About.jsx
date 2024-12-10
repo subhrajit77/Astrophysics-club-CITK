@@ -3,46 +3,41 @@ import classes from "./About.module.css";
 import about from "./about.svg";
 
 const About = () => {
-  return (
-    <>
-      <section id="about" className={classes.aboutSec}>
-        <div className={classes.about}>
-          <div className={classes.details}>
-            <h3 className={classes.heading}>About</h3>
-            <h2 className={classes.heading1}>Techracy 24</h2>
-            <p className={classes.para}>
-              Techracy is a technical festival offering a diverse range of events
-              and competitions focused on technology and innovation. It provides
-              a platform for individuals to showcase their skills, learn from
-              others, and foster creativity, teamwork, and problem-solving
-              abilities. By exposing attendees to the latest advancements in
-              technology, Techracy helps broaden their knowledge and skillset,
-              making it a fun, engaging, and enriching experience for all
-              attendees. Get ready to be a part of the biggest technical
-              extravaganza of the year 2k24 – Techracy!
-            </p>
+    return (
+        <>
+            <section id="about" className={classes.aboutSec}>
+                <div className={classes.about}>
+                    <div className={classes.details}>
+                        <h3 className={classes.heading}>About</h3>
+                        <h2 className={classes.heading1}>Astrophysics Club</h2>
+                        <p className={classes.para}>
+                            The Astrophysics Club of our college is a vibrant
+                            community of space enthusiasts dedicated to
+                            unraveling the mysteries of the universe. Through
+                            engaging discussions, hands-on stargazing sessions,
+                            and insightful workshops, the club fosters curiosity
+                            and a deeper understanding of celestial phenomena.
+                            It serves as a platform for students to explore the
+                            wonders of astrophysics, connect with like-minded
+                            individuals, and cultivate a passion for scientific
+                            discovery. Whether you're a seasoned stargazer or
+                            just beginning your journey into the cosmos, the
+                            Astrophysics Club welcomes you to embark on an
+                            adventure among the stars.
+                        </p>
+                    </div>
 
-            {/* <p className={classes.para}>
-            Spectacular talent stretches boundaries to inspire the participating
-            students and the rapt audience alike. A gigantic range of events
-            from advanced robotics challenges to entrepreneurship hunts
-            promising to zap up the cranial indices of participants. Skill,
-            genius and knowledge trading infused with a handful of fun, and a
-            titanic prize money sum of above half a million rupees to make Karma
-            one of the most unique tech carnivals of the country.
-          </p> */}
-            {/* <div className={classes.btn}>
-            <Button label="Explore" />
-          </div> */}
-          </div>
-
-          <div className={classes.composition}>
-            <img className={classes.images} src={about} alt="about" />
-          </div>
-        </div>
-      </section>
-    </>
-  );
+                    <div className={classes.composition}>
+                        <img
+                            className={classes.images}
+                            src={about}
+                            alt="about"
+                        />
+                    </div>
+                </div>
+            </section>
+        </>
+    );
 };
 
 export default About;
