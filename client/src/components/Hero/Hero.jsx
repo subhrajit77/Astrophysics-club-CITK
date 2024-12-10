@@ -2,7 +2,7 @@ import React from "react";
 import classes from "./Hero.module.css";
 import { Link } from "react-router-dom";
 import Button from "../common/Button/Button";
-import text_img from "./text.svg";
+import text_img from "../../../src/assets/TECHCRACY- WHITE.png";
 
 const Hero = () => {
   // const [countDays, setDays] = useState(false);
@@ -49,11 +49,10 @@ const Hero = () => {
     <section id="home" className={classes.hero}>
       <div className={classes.herobox}>
         <div className={classes.headerbox}>
-          {/* <h1 className={classes.heading}>Sambhav</h1> */}
-          <img src={text_img} className={classes.text_img} alt="text_img" />
+          <h1 className={classes.heading}>Astrophysics Club</h1>  
+          {/* <img src={text_img} className={classes.text_img} alt="text_img" /> */}
 
-          <h4 className={classes.caption}>Let&apos;s make a tech move!</h4>
-          <p className={classes.date}>February 20-21, 2023</p>
+          <h4 className={classes.caption}>Exploring the Cosmos, Illuminating Minds!</h4>
           <Link
             className={classes.anchorBtn}
             // target="_blank"

@@ -48,6 +48,8 @@
 .caption {
   font-style: italic;
   color: #fff;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
   font-size: 2rem;
   font-weight: 300;
 }

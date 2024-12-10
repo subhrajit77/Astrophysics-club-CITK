@@ -9,17 +9,17 @@ const About = () => {
         <div className={classes.about}>
           <div className={classes.details}>
             <h3 className={classes.heading}>About</h3>
-            <h2 className={classes.heading1}>SAMBHAV 23</h2>
+            <h2 className={classes.heading1}>Techracy 24</h2>
             <p className={classes.para}>
-              Sambhav is a technical festival offering a diverse range of events
+              Techracy is a technical festival offering a diverse range of events
               and competitions focused on technology and innovation. It provides
               a platform for individuals to showcase their skills, learn from
               others, and foster creativity, teamwork, and problem-solving
               abilities. By exposing attendees to the latest advancements in
-              technology, Sambhav helps broaden their knowledge and skillset,
+              technology, Techracy helps broaden their knowledge and skillset,
               making it a fun, engaging, and enriching experience for all
               attendees. Get ready to be a part of the biggest technical
-              extravaganza of the year 2k23 – Sambhav!
+              extravaganza of the year 2k24 – Techracy!
             </p>
 
             {/* <p className={classes.para}>
