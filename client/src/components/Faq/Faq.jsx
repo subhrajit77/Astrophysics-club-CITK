@@ -57,12 +57,6 @@ const Faq = () => {
                         </div>
                     );
                 })}
-
-                {/* <div className={classes.single}>
-                <div className={classes.question}>How are you?</div>
-                <div className={classes.answer}>I am fine</div>
-                <span className={classes.btn}>+</span>
-            </div> */}
             </div>
         </section>
     );

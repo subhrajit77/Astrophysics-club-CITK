@@ -35,7 +35,7 @@ const Contact = () => {
           <div className={classes.mapBox}>
             <iframe
               className={classes.map}
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4809.059309848436!2d73.76092887672722!3d18.649282832139026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2b9f1ca8dab03%3A0x6237cfbd36f9acf9!2sD.Y.%20Patil%20College%20of%20Engineering!5e0!3m2!1sen!2sin!4v1676150863219!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2773.4305385019143!2d90.30111683761609!3d26.477877003291606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3758f4d277d13e8d%3A0x233749495bfdb465!2sCentral%20Institute%20of%20Technology%2C%20Kokrajhar!5e0!3m2!1sen!2sin!4v1734540522076!5m2!1sen!2sin"
               // width="600"
               // height="450"
               // style="border:0;"
@@ -44,6 +44,8 @@ const Contact = () => {
               loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"
             ></iframe>
+            
+
           </div>
         </div>
       </div>
