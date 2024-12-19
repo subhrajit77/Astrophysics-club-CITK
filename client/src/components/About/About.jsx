@@ -1,7 +1,7 @@
 // import Button from "../common/Button/Button";
 import classes from "./About.module.css";
-import about from "./about.svg";
-
+// import about from "./about.svg";
+import astronaut from "./astronaut.png";
 const About = () => {
     return (
         <>
@@ -30,7 +30,7 @@ const About = () => {
                     <div className={classes.composition}>
                         <img
                             className={classes.images}
-                            src={about}
+                            src={astronaut}
                             alt="about"
                         />
                     </div>
