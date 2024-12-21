@@ -1,22 +1,10 @@
 import React from "react";
-import sambhavLogo from "../../assets/Logo.png";
-import grabbitslogo from "../../assets/grabbits.png";
+import clublogo from "../../assets/club-logo.png";
 import classes from "./Footer.module.css";
 
-const sambhavinsta = "https://www.instagram.com/sambhav_dypcoe/";
-const sambhavlinkedin = "https://www.linkedin.com/company/sambhav-tech-fest/";
-// const sambhavitwitter=''
+const spiderurl = "https://www.linkedin.com/in/abhishek30125/";
+const saurabh = "https://www.linkedin.com/in/subhrajittalukdar/";
 
-const grabbitinsta = "https://www.instagram.com/grabbits_/";
-const grabbitlinkedin = "https://www.linkedin.com/company/grabbits/";
-const grabbittwitter = "https://twitter.com/grabbits_";
-const grabbitwebsite = "https://grabbits.vercel.app/";
-
-const spiderurl = "https://www.linkedin.com/in/om-gawande/";
-const saurabh = "https://www.linkedin.com/in/saurabh-barde-5b617321a/";
-const sanyog = "https://www.linkedin.com/in/sanyog-mahajan-8288a7204/";
-
-const grabbiturl = "https://www.grabbitdypcoe.in";
 const Footer = () => {
     return (
         <div className={classes.footer_outer}>
@@ -26,8 +14,8 @@ const Footer = () => {
                         <div>
                             <img
                                 className={classes.footer_sambhav_image}
-                                src={sambhavLogo}
-                                alt="sambhavLogo"
+                                src={clublogo}
+                                alt="club logo"
                             ></img>
                         </div>
                         <div>
@@ -44,7 +32,7 @@ const Footer = () => {
                     <div className={classes.footer_social_item}>
                         <div>
                             <a
-                                href={sambhavinsta}
+                                // href={sambhavinsta}
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className={classes.footer_a_link}
@@ -58,7 +46,7 @@ const Footer = () => {
                         </div>
                         <div>
                             <a
-                                href={sambhavlinkedin}
+                                // href={sambhavlinkedin}
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className={classes.footer_a_link}
@@ -157,7 +145,7 @@ const Footer = () => {
                     >
                         Abhishek Kashyap
                     </a>{" "}
-                    & {" "}
+                    &{" "}
                     <a
                         href={saurabh}
                         target="_blank"

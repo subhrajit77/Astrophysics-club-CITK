@@ -4,15 +4,14 @@ import EventSection from "../components/EventSection/EventSection";
 import classes from "./AboutPage.module.css";
 
 const AboutPage = () => {
-  return (
-    <>
-      <div className={classes.about_page}>
-      <h1 className={classes.headingx}>About</h1>
-        <About />
-        <EventSection />
-      </div>
-    </>
-  );
+    return (
+        <>
+            <div className={classes.about_page}>
+                <About />
+                <EventSection />
+            </div>
+        </>
+    );
 };
 
 export default AboutPage;
