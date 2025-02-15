@@ -90,14 +90,14 @@ export const eventsData = [
         image: SpaceOTalk,
         name: "Space O Talk",
         description:
-            "Explore the cutting edge of astrophysical research at our 'Advances in Astrophysics' symposium. Delve into the latest discoveries and theories shaping our understanding of the universe. Featuring expert speakers, this event will cover diverse topics from exoplanet exploration to the evolution of galaxies and the latest findings in solar physics. Join us for an engaging exploration of the cosmos.",
+            "Join us for 'Space O Talk,' a dynamic series of conversations exploring the latest advancements and thought-provoking topics in space exploration and related fields. Engage with experts as they discuss everything from the future of lunar missions and deep space travel to the search for extraterrestrial life and the societal impact of space technology. Be part of an interactive dialogue that pushes the boundaries of our cosmic understanding",
 
         contactInfo: [
             "Vedika Sangle: 9578907935",
             "Utkarsha Kesarkar: 7887440601",
         ],
         location: "BKB Seminar Hall",
-        date: "14th Aug 2020",
+        date: "14th NOV 2019",
         note: ["Seating is limited. Please arrive early."],
     },
 ];
