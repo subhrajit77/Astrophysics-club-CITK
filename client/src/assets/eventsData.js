@@ -2,6 +2,8 @@ import DebateCompetition from "./Events/Debate-Competition.jpg";
 import Chandrayaan3 from "./Events/Chandrayaan3-Landing.png";
 import EssayCompetition from "./Events/Essay-Competition-2023.png";
 import AstrophysicsTalk from "./Events/Astrophysics-talk.png";
+import AdvancesinAstrophysics from "./Events/Advances-in-Astrophysics.png";
+import SpaceOTalk from "./Events/Space-O-Talk.png";
 
 export const eventsData = [
     {
@@ -58,7 +60,7 @@ export const eventsData = [
         image: AstrophysicsTalk,
         name: "ASTROPHYSICS TALK",
         description:
-        "Join us for an enlightening Astrophysics Talk as part of our Chandrayaan Utsav! Explore the fascinating interplay between the Sun and Earth through the lens of solar wind plasma. Delve into the science behind coronal mass ejections, geomagnetic storms, and their impact on our planet. Gain insights from expert speakers and unravel the mysteries of our Sun-Earth connection.",
+            "Join us for an enlightening Astrophysics Talk as part of our Chandrayaan Utsav! Explore the fascinating interplay between the Sun and Earth through the lens of solar wind plasma. Delve into the science behind coronal mass ejections, geomagnetic storms, and their impact on our planet. Gain insights from expert speakers and unravel the mysteries of our Sun-Earth connection.",
 
         contactInfo: [
             "Vedika Sangle: 9578907935",
@@ -66,6 +68,36 @@ export const eventsData = [
         ],
         location: "BKB Seminar Hall",
         date: "11th Nov 2022",
+        note: ["Seating is limited. Please arrive early."],
+    },
+    {
+        id: 5,
+        image: AdvancesinAstrophysics,
+        name: "ADVANCES IN ASTROPHYSICS",
+        description:
+            "Explore the cutting edge of astrophysical research at our 'Advances in Astrophysics' symposium. Delve into the latest discoveries and theories shaping our understanding of the universe. Featuring expert speakers, this event will cover diverse topics from exoplanet exploration to the evolution of galaxies and the latest findings in solar physics. Join us for an engaging exploration of the cosmos.",
+
+        contactInfo: [
+            "Vedika Sangle: 9578907935",
+            "Utkarsha Kesarkar: 7887440601",
+        ],
+        location: "BKB Seminar Hall",
+        date: "14th Aug 2020",
+        note: ["Seating is limited. Please arrive early."],
+    },
+    {
+        id: 6,
+        image: SpaceOTalk,
+        name: "Space O Talk",
+        description:
+            "Explore the cutting edge of astrophysical research at our 'Advances in Astrophysics' symposium. Delve into the latest discoveries and theories shaping our understanding of the universe. Featuring expert speakers, this event will cover diverse topics from exoplanet exploration to the evolution of galaxies and the latest findings in solar physics. Join us for an engaging exploration of the cosmos.",
+
+        contactInfo: [
+            "Vedika Sangle: 9578907935",
+            "Utkarsha Kesarkar: 7887440601",
+        ],
+        location: "BKB Seminar Hall",
+        date: "14th Aug 2020",
         note: ["Seating is limited. Please arrive early."],
     },
 ];
