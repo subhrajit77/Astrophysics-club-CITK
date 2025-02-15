@@ -22,31 +22,31 @@ const TRACKING_ID = "UA-257375779-1"; // OUR_TRACKING_ID
 ReactGA.initialize(TRACKING_ID);
 
 const App = () => {
-  // const swup = new Swup({
-  //   plugins: [
-  //     new SwupOverlayTheme({
-  //       color: "#2D2E82",
-  //       duration: 500,
-  //       direction: "to-right",
-  //     }),
-  //   ],
-  // });
-  const location = useLocation();
-  useEffect(() => {
-    window.scrollTo(0, 0);
-    // console.log(location);
-  }, [location]);
-  const [loading, setLoading] = useState(true);
+    // const swup = new Swup({
+    //   plugins: [
+    //     new SwupOverlayTheme({
+    //       color: "#2D2E82",
+    //       duration: 500,
+    //       direction: "to-right",
+    //     }),
+    //   ],
+    // });
+    const location = useLocation();
+    useEffect(() => {
+        window.scrollTo(0, 0);
+        // console.log(location);
+    }, [location]);
+    const [loading, setLoading] = useState(true);
 
-  setTimeout(() => setLoading(false), 3900);
-  useEffect(() => {});
-  return (
-    <>
-      {loading ? (
-        <Loading />
-      ) : (
+    setTimeout(() => setLoading(false), 3900);
+    useEffect(() => {});
+    return (
         <>
-          {/* <div
+            {loading ? (
+                <Loading />
+            ) : (
+                <>
+                    {/* <div
         // id={swup}
         style={{
           display: "flex",
@@ -57,29 +57,31 @@ const App = () => {
           height: "auto",
         }}
       > */}
-          <Popup />
-          <Navbar />
-          <Routes>
-            <Route path="/" element={<Homepage />} />
-            <Route path="/events" element={<MainEvents />} />
-            <Route path="/events/:eventId" element={<SingleEventPage />} />
-            <Route path="/leaderboard" element={<Leaderboard />} />
-            <Route path="/about" element={<AboutPage />} />
-            <Route path="/register" element={<Register />} />
-            <Route path="/contact" element={<ContactUs />} />
-            <Route path="/hidden" element={<Hidden/>} />
-            {/*   <Route path="/leaderboard/:eventId" element={<Leaderboard />} />
+                    <Popup />
+                    <Navbar />
+                    <Routes>
+                        <Route path="/" element={<Homepage />} />
+                        <Route path="/events" element={<MainEvents />} />
+                        <Route
+                            path="/events/:eventId"
+                            element={<SingleEventPage />}
+                        />
+                        <Route path="/about" element={<AboutPage />} />
+                        <Route path="/register" element={<Register />} />
+                        <Route path="/contact" element={<ContactUs />} />
+                        {/* <Route path="/hidden" element={<Hidden/>} /> */}
+                        {/*   <Route path="/leaderboard/:eventId" element={<Leaderboard />} />
           <Route path="*" element={<NotFound />}></Route> */}
-            {/* <Route path="/" element={<Landing />}></Route>  */}
-            {/* <Route path="/" element={<Faq />}></Route>  */}
-          </Routes>
-          <Footer />
-          {/* <Button /> */}
-          {/* </div> */}
+                        {/* <Route path="/" element={<Landing />}></Route>  */}
+                        {/* <Route path="/" element={<Faq />}></Route>  */}
+                    </Routes>
+                    <Footer />
+                    {/* <Button /> */}
+                    {/* </div> */}
+                </>
+            )}
         </>
-      )}
-    </>
-  );
+    );
 };
 
 export default App;
