@@ -4,6 +4,7 @@ import EssayCompetition from "./Events/Essay-Competition-2023.png";
 import AstrophysicsTalk from "./Events/Astrophysics-talk.png";
 import AdvancesinAstrophysics from "./Events/Advances-in-Astrophysics.png";
 import SpaceOTalk from "./Events/Space-O-Talk.png";
+import SpaceScienceDay from "./Events/Space-Science-Day.jpg";
 
 export const eventsData = [
     {
@@ -88,7 +89,7 @@ export const eventsData = [
     {
         id: 6,
         image: SpaceOTalk,
-        name: "Space O Talk",
+        name: "SPACE O TALK",
         description:
             "Join us for 'Space O Talk,' a dynamic series of conversations exploring the latest advancements and thought-provoking topics in space exploration and related fields. Engage with experts as they discuss everything from the future of lunar missions and deep space travel to the search for extraterrestrial life and the societal impact of space technology. Be part of an interactive dialogue that pushes the boundaries of our cosmic understanding",
 
@@ -100,4 +101,18 @@ export const eventsData = [
         date: "14th NOV 2019",
         note: ["Seating is limited. Please arrive early."],
     },
+    {
+        id: 7,
+        image: SpaceScienceDay,
+        name: "SPACE SCIENCE DAY",
+        description:
+            "Celebrate 'Space Science Day' with us! Immerse yourself in a day filled with engaging activities, insightful talks, and captivating exhibits that explore the wonders of our universe. From the latest breakthroughs in astrophysics to the future of space exploration, discover the fascinating world of space science. Join us for a day of learning, exploration, and inspiration.",
+
+        contactInfo: [
+            "Vedika Sangle: 9578907935",
+            "Utkarsha Kesarkar: 7887440601",
+        ],
+        location: " xyz scchool",
+        date: "17th FEB 2018",
+    }
 ];
