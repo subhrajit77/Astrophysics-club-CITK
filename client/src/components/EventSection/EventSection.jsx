@@ -28,15 +28,7 @@ const EventSection = () => {
                             universe.
                         </p>
 
-                        {/* <p className={classes.para}>
-            Spectacular talent stretches boundaries to inspire the participating
-            students and the rapt audience alike. A gigantic range of events
-            from advanced robotics challenges to entrepreneurship hunts
-            promising to zap up the cranial indices of participants. Skill,
-            genius and knowledge trading infused with a handful of fun, and a
-            titanic prize money sum of above half a million rupees to make Karma
-            one of the most unique tech carnivals of the country.
-          </p> */}
+                        
                         <div className={classes.btn}>
                             <Button link="/events" label="Explore" />
                         </div>
