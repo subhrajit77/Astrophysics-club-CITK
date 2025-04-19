@@ -40,9 +40,9 @@ const Navbar = () => {
                         offset={-100}
                         duration={600}
                     >
-                        <Link to="/">
+                        {/* <Link to="/">
                             <img src={Logo} alt="/" className={classes.logo} />
-                        </Link>
+                        </Link> */}
                     </Drop>
                 </div>
 
@@ -104,6 +104,27 @@ const Navbar = () => {
                             </li>
                         </Link>
 
+                        <li className={classes.navLink}>
+                            <Drop
+                                activeClass={classes.active}
+                                to="contact"
+                                spy="true"
+                                smooth={true}
+                                offset={-120}
+                                duration={600}
+                                style={{
+                                    color: "white",
+                                    textDecoration: "none",
+                                }}
+                            >
+                                <Link
+                                    className={classes.homeLink}
+                                    to="/team"
+                                >
+                                    Team
+                                </Link>
+                            </Drop>
+                        </li>
                         <li className={classes.navLink}>
                             <Drop
                                 activeClass={classes.active}

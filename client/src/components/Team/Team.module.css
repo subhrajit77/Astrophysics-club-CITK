@@ -1,0 +1,102 @@
+.teamSection {
+    width: 100vw;
+    min-height: 100vh;
+    background: url(./backGround.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px 16px;
+    border: 2px solid red;
+}
+
+.teamHeading {
+    font-size: 36px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 32px;
+    text-align: center;
+    background-image: linear-gradient(to right, #00f0ff, #00ffa2);
+    padding: 6px 18px;
+    border-radius: 8px;
+}
+
+.teamGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 2rem;
+    width: 100%;
+    max-width: 1200px;
+    border: 1px solid greenyellow;
+}
+
+.teamCard {
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(8px);
+    border-radius: 12px;
+    padding: 1.5rem 1rem;
+    width: 20vw;
+    text-align: center;
+    box-shadow: 0 0 30px rgba(0, 255, 117, 0.3);
+    transition: transform 0.3s ease;
+    border: 1px solid rgb(225, 10, 245);
+}
+
+.teamCard:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 0 40px rgba(0, 255, 117, 0.5);
+}
+
+.memberPhoto {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #00ffa2;
+    margin-bottom: 1rem;
+}
+
+.Name {
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 0.25rem;
+}
+
+.memberDesignation {
+    font-size: 1.3rem;
+    color: #d4f7ff;
+    margin-bottom: 0.5rem;
+}
+
+.memberEmail {
+    font-size: 1.1rem;
+    color: #c8c8ce;
+    word-break: break-word;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    .eventHeading {
+        font-size: 28px;
+        margin-bottom: 24px;
+    }
+
+    .memberPhoto {
+        width: 80px;
+        height: 80px;
+    }
+
+    .memberName {
+        font-size: 1.1rem;
+    }
+
+    .memberDesignation {
+        font-size: 0.95rem;
+    }
+
+    .memberEmail {
+        font-size: 0.85rem;
+    }
+}

@@ -10,6 +10,7 @@ import Homepage from "./pages/Homepage";
 import SingleEventPage from "./components/SingleEventPage/SingleEventPage";
 import Leaderboard from "./pages/Leaderboard";
 import AboutPage from "./pages/AboutPage";
+import TeamPage from "./pages/TeamPage";
 import Register from "./components/common/Register/Register";
 import ContactUs from "./components/ContactUs/ContactUs";
 import Loading from "./components/common/Loading/Loading";
@@ -67,6 +68,7 @@ const App = () => {
                             element={<SingleEventPage />}
                         />
                         <Route path="/about" element={<AboutPage />} />
+                        <Route path="/team" element={<TeamPage />} />
                         <Route path="/register" element={<Register />} />
                         <Route path="/contact" element={<ContactUs />} />
                         {/* <Route path="/hidden" element={<Hidden/>} /> */}

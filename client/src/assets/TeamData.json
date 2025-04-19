@@ -1,0 +1,137 @@
+[
+    {
+        "id": 1,
+        "Name": "Mriganav Baishya",
+        "Email": "u22ie1032@cit.ac.in",
+        "Designation": "Student Coordinator",
+        "Image": "assets/Team-Members/MRIGANAV-BAISHYA.jpg"
+    },
+    {
+        "id": 2,
+        "Name": "Arnab Sashi ",
+        "Email": "u22ece3081@cit.ac.in",
+        "Designation": "Student Coordinator",
+        "Image": "assets/Team-Members/ARNAB-SASHI.jpg"
+    },
+    {
+        "id": 3,
+        "Name": "Khushi Gupta ",
+        "Email": "u24fet1008@cit.ac.in",
+        "Designation": "Linkedin Handler",
+        "Image": "assets/Team-Members/KHUSHI-GUPTA.jpg"
+    },
+    {
+        "id": 4,
+        "Name": "Priyanshu Dev Nath ",
+        "Email": "u23ece1039@cit.ac.in",
+        "Designation": "Coordinator",
+        "Image": "assets/Team-Members/PRIYANSHU-DEBNATH.jpg"
+    },
+    {
+        "id": 5,
+        "Name": "Nitin Kumar ",
+        "Email": "Nitinkumar34534@gmail.com",
+        "Designation": "Coordinator",
+        "Image": "assets/Team-Members/NITIN-KUMAR.jpg"
+    },
+    {
+        "id": 6,
+        "Name": "Bhumistha Das ",
+        "Email": "u23ce3087@cit.ac.in",
+        "Designation": "Coordinator",
+        "Image": "assets/Team-Members/BHUMISTHA-DAS.jpg"
+    },
+    {
+        "id": 7,
+        "Name": "Shreya Kumari",
+        "Email": "shreyakumari7322@gmail.com",
+        "Designation": "Coordinator",
+        "Image": "assets/Team-Members/SHREYA-KUMARI.jpg"
+    },
+    {
+        "id": 8,
+        "Name": "Subhra Jyoti Saha",
+        "Email": "subhrajyotisaha16@gmail.com",
+        "Designation": "Media Handler",
+        "Image": "assets/Team-Members/SUBHRA-JYOTI-SAHA.jpg"
+    },
+    {
+        "id": 9,
+        "Name": "Jubin Das",
+        "Email": "u24ece1045@cit.ac.in",
+        "Designation": "Coordinator",
+        "Image": "assets/Team-Members/JUBIN-DAS.jpg"
+    },
+
+    {
+        "id": 10,
+        "Name": "Sumit Kumar Shah ",
+        "Email": "u24fet1052@cit.ac.in",
+        "Designation": "Coordinator",
+        "Image": "assets/Team-Members/SUMIT-SHAH.jpg"
+    },
+    {
+        "id": 11,
+        "Name": "Kuldeep Dekaraja",
+        "Email": "kuldeepdekaraja@gmail.com",
+        "Designation": "Coordinator",
+        "Image": "assets/Team-Members/KULDEEP-DEKARAJA.jpeg"
+    },
+    {
+        "id": 12,
+        "Name": "Bibek Bayan ",
+        "Email": "u22ie1022@cit.ac.in",
+        "Designation": "Coordinator",
+        "Image": "assets/Team-Members/BIBEK-BAYAN.jpg"
+    },
+    {
+        "id": 13,
+        "Name": "Swarnamika Deka ",
+        "Email": "u23ce1010@cit.ac.in",
+        "Designation": "Coordinator",
+        "Image": "assets/Team-Members/SWARNAMIKA-DEKA.jpg"
+    },
+    {
+        "id": 14,
+        "Name": "Vikram Kalita",
+        "Email": "kalitavikram11@gmail.com",
+        "Designation": "Coordinator",
+        "Image": "assets/Team-Members/VIKRAM-KALITA.jpg"
+    },
+
+    {
+        "id": 15,
+        "Name": "Kishore Sonu Guria ",
+        "Email": "u23ece1056@cit.ac.in ",
+        "Designation": "Coordinator ",
+        "Image": "assets/Team-Members/KISHORE-SONU-GURIA.jpg"
+    },
+    {
+        "id": 16,
+        "Name": "Priyanka Jatav ",
+        "Email": "u24cse1086@cit.ac.in",
+        "Designation": "Coordinator",
+        "Image": "assets/Team-Members/PRIYANKA-JATAV.jpg"
+    },
+    {
+        "id": 17,
+        "Name": "Premlata Choudhary ",
+        "Email": "u24cse1086@cit.ac.in",
+        "Designation": "Coordinator",
+        "Image": "assets/Team-Members/PREMLATA-CHOUDHARY.jpg"
+    },
+    {
+        "id": 18,
+        "Name": "Nilutpal Medhi ",
+        "Email": "u24mcd1020@cit.ac.in",
+        "Designation": "Design Coordinator",
+        "Image": "assets/Team-Members/NILUTPAL-MEDHI.jpg"
+    },
+    {
+        "id": 19,
+        "Name": "Manab Pegu",
+        "Email": "u23ece1045@cit.ac.in",
+        "Designation": "Volunteer",
+        "Image": "assets/Team-Members/MANAB-PEGU.jpg"
+    }
+]
