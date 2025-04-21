@@ -2,7 +2,7 @@ import React from "react";
 import clublogo from "../../assets/club-logo.png";
 import classes from "./Footer.module.css";
 
-const spiderurl = "https://www.linkedin.com/in/abhishek30125/";
+const spiderurl = "https://linktr.ee/Abhishek10351";
 const saurabh = "https://www.linkedin.com/in/subhrajittalukdar/";
 
 const Footer = () => {
@@ -32,7 +32,7 @@ const Footer = () => {
                     <div className={classes.footer_social_item}>
                         <div>
                             <a
-                                // href={sambhavinsta}
+                                href={"https://instagram.com/"}
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className={classes.footer_a_link}
@@ -44,28 +44,6 @@ const Footer = () => {
                                 />
                             </a>
                         </div>
-                        <div>
-                            <a
-                                // href={sambhavlinkedin}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className={classes.footer_a_link}
-                            >
-                                <img
-                                    className={classes.footer_social_link}
-                                    src="https://img.icons8.com/color/48/ffffff/linkedin-circled--v1.png"
-                                    alt=""
-                                />
-                            </a>{" "}
-                        </div>
-                        {/* <div>
-              <a
-                href={sambhavtwitter}
-                target="_blank"
-                rel="noopener noreferrer"
-                className={classes.footer_a_link}>
-                <img className={classes.footer_social_link} src="https://img.icons8.com/fluency/48/ffffff/twitter-circled.png" alt="" />
-              </a>  </div> */}
                     </div>
                 </div>
                 <div className={classes.footer_first}>

@@ -50,7 +50,7 @@ const Hero = () => {
       <div className={classes.herobox}>
         <div className={classes.headerbox}>
           <h1 className={classes.heading}>Astrophysics Club</h1>  
-          {/* <img src={text_img} className={classes.text_img} alt="text_img" /> */}
+          {/* <img src={} className={classes.text_img} alt="text_img" /> */}
 
           <h4 className={classes.caption}>Exploring the Cosmos, Illuminating Minds!</h4>
           <Link
