@@ -1,4 +1,3 @@
-import React from "react";
 import classes from "./Team.module.css";
 import TeamData from "../../assets/TeamData.json";
 
