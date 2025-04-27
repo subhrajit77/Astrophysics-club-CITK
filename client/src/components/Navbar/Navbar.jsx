@@ -10,7 +10,7 @@ import { faXmark } from "@fortawesome/free-solid-svg-icons";
 import { HashLink as Link } from "react-router-hash-link";
 // import Dropdown from "./Dropdown";
 import { HashLink } from "react-router-hash-link";
-import Logo from "../../assets/TECHCRACY- WHITE.png";
+import Logo from "../../assets/club-logo.png";
 import GrabBitBtn from "../common/GrabBitBtn/GrabBitBtn";
 
 const Scroll = require("react-scroll");
@@ -40,9 +40,9 @@ const Navbar = () => {
                         offset={-100}
                         duration={600}
                     >
-                        {/* <Link to="/">
+                        <Link to="/">
                             <img src={Logo} alt="/" className={classes.logo} />
-                        </Link> */}
+                        </Link>
                     </Drop>
                 </div>
 
