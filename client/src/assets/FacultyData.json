@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "Name": "Dr. Manasi Buzar Baruah",
+        "Email": "mbbaruah@cit.ac.in",
+        "Designation": "Assistant Professor",
+        "Image": "assets/Faculty-Incharges/MANASI-BUZAR.jpeg"
+    },
+    {
+        "id": 2,
+        "Name": "Dr. Pranjal Kalita ",
+        "Email": "p.kalita@cit.ac.in",
+        "Designation": "Associate Professor",
+        "Image": "assets/Faculty-Incharges/PRANJAL-KALITA.jpg"
+    }
+]

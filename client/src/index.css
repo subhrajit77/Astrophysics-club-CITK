@@ -17,13 +17,14 @@ html {
 @media screen and (max-width: 480px) {
   html {
     font-size: 45%;
+    
   }
 }
 
 body {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
-  background: #081b3f;
+  background: #030a16;
   background-size: cover;
   background-attachment: fixed;
   scroll-behavior: smooth;
